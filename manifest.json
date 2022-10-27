@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Memes",
+    "description": "Get new memes everyday",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "fav.png"
+    }
+}
