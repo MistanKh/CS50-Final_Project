@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Location Details",
-    "description": "Get location detaisl by IP",
+    "name": "Public IP",
+    "description": "Get your public IP address",
     "version": "1.0",
     "action": {
         "default_popup": "popup.html",

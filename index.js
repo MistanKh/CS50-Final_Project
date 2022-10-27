@@ -1,9 +1,9 @@
 fetch('https://api.ipify.org?format=json')
 	.then(response => response.json())
-	.then(jokeData => {
-		const jokeText = jokeData.ip;
+	.then(ipData => {
+		const iptext = ipData.ip;
 		const ipaddress = document.getElementById('ipaddress');
 
-		ipaddress.innerHTML = jokeText;
+		ipaddress.innerHTML = iptext;
 	})
 	.catch(err => console.error(err));
