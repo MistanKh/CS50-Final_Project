@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Memes",
-    "description": "Get new memes everyday",
+    "name": "Location Details",
+    "description": "Get location detaisl by IP",
     "version": "1.0",
     "action": {
         "default_popup": "popup.html",

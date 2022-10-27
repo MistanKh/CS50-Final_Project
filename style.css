@@ -1,0 +1,29 @@
+body {
+    width: 145px;
+    height: 150px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: inline-flex;
+    margin: auto 10px;
+    font-size: 22px;
+    color: blue;
+    border-radius: 6px;
+    border: 1px solid lightblue;
+    padding: 10px
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    box-shadow: grey;
+    position: absolute;
+}
